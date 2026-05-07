@@ -84,8 +84,8 @@ import io
     - bucket → pasta onde estão os PDFs
 """
 
-os.environ["AWS_ACCESS_KEY_ID"] = "AKIAR4JOHZODH2MENUPS"
-os.environ["AWS_SECRET_ACCESS_KEY"] = "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"
+os.environ["AWS_ACCESS_KEY_ID"] = "-"
+os.environ["AWS_SECRET_ACCESS_KEY"] = "-"
 s3 = boto3.client("s3")
 bucket = "tbh-resultados-raw"
 prefix = "TBH Esportes/resultados_tbh_2026_completo/"
