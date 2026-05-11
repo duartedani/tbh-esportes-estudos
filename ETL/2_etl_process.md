@@ -25,7 +25,7 @@ Apesar de superficial neste primeiro momento, essa etapa foi essencial para dire
 
 ## 📥 Etapa 2 — Extração dos Dados
 
-Os dados foram obtidos a partir de todas as corridas realizadas até **03/05/2025**, totalizando 27 eventos analisados como base inicial.
+Os dados foram obtidos a partir de todas as corridas realizadas até **03/05/2026**, totalizando 27 eventos analisados como base inicial.
 
 O processo de extração foi realizado com o apoio de Inteligência Artificial, responsável por interpretar os arquivos PDF e converter as informações em um formato estruturado.
 
