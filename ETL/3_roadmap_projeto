@@ -1,0 +1,28 @@
+# 🗺️ Roadmap do Projeto
+
+### 🥇 Etapa 1 — Pipeline com dados de 2026
+
+- [x] Identificação e análise exploratória dos dados  
+- [x] Definição do padrão dos arquivos  
+- [x] Extração dos dados com apoio de IA  
+- [ ] Tratamento e padronização dos dados  
+- [ ] Modelagem da base analítica  
+- [ ] Construção do dashboard  
+
+---
+
+### 🥈 Etapa 2 — Expansão para dados de 2025
+
+- [ ] Mapeamento das diferenças entre os dados de 2025 e 2026  
+- [ ] Tratamento e padronização dos dados de 2025  
+- [ ] Ajustes no modelo de dados (se necessário)  
+- [ ] Integração com a base existente  
+
+---
+
+### 🥉 Etapa 3 — Análise Comparativa
+
+- [ ] Consolidação das bases de 2025 e 2026  
+- [ ] Criação de métricas comparativas  
+- [ ] Análise de evolução de performance  
+- [ ] Geração de insights analíticos  
