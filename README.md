@@ -68,10 +68,9 @@ Com essa visão, é possível:
 
 Além da análise esportiva, este projeto também tem como finalidade demonstrar conhecimentos técnicos em:
 
-- Engenharia de Dados
+
 - ETL / ELT
 - Tratamento de dados semi-estruturados
-- Automação de processos
 - Modelagem analítica
 - Visualização de dados
 - Arquitetura de pipelines
