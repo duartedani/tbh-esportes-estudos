@@ -77,3 +77,5 @@ Além da análise esportiva, este projeto também tem como finalidade demonstrar
 - Boas práticas em projetos de dados
 
 ---
+
+![Fluxo do projeto](Prototipo%20Layouts/fluxo%20projeto.png)
