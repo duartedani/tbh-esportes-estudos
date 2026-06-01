@@ -16,7 +16,7 @@ A proposta consiste na construção de uma pipeline de dados ponta a ponta, pass
 - Criação de dashboards no Power BI
 
 Os dados utilizados neste projeto são provenientes dos resultados de corridas disponibilizados no site TBH Esportes, entre o periodo de janeiro a maio de 2026.
-Os dados disponibilizados estão em um formato de arquivos PDF. Parte da captura e interpretação dessas informações contou com o auxílio de Inteligência Artificial, tornando possível acelerar o processo de transformação de dados não estruturados em uma base analítica organizada.
+Estes estão no formato de arquivos PDF. Parte da captura e interpretação dessas informações contou com o auxílio de Inteligência Artificial, tornando possível acelerar o processo de transformação de dados não estruturados em uma base analítica organizada.
 
 ---
 

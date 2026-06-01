@@ -51,8 +51,8 @@ A escolha por essa base se deve ao seu menor volume, permitindo sua utilização
 
 Nesta fase, estão contempladas as seguintes atividades:
 
-- Identificação e análise dos dados  
-- Extração das informações  
+- Identificação dos dados  
+- Extração  
 - Modelagem dos dados  
 - Estruturação da base analítica  
 - Construção de dashboard  
@@ -72,16 +72,6 @@ Na etapa final, será realizada a integração das bases de **2025** e **2026**,
 
 ---
 
-## ⚙️ Etapas Pós-Extração
-
-Após a extração e carga dos dados brutos, o pipeline segue para as etapas de:
-
-- Tratamento e padronização dos dados  
-- Modelagem da base analítica  
-
-É a partir desse ponto que os dados passam a estar prontos para geração de valor através da análise.
-
----
 
 ## 📊 Camadas de Análise
 
