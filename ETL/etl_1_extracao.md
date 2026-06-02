@@ -28,26 +28,49 @@ Os dados foram coletados a partir de todas as corridas realizadas até 03/05/202
 
 O processo de extração contou com o apoio de Inteligência Artificial, responsável pela leitura e extração das informações contidas nos arquivos PDF disponibilizados no site.
 
+Segue abaixo a lista das corridas realizadas no período citado acima:
 
-### 📁 Padronização de Arquivos
 
-Durante a extração, foi definido um padrão importante para organização dos dados:
+| #  | Nome da Corrida                                  |
+| -- | ------------------------------------------------ |
+| 1  | PARK RUN                                         |
+| 2  | OURO VERDE RUN                                   |
+| 3  | CORRIDA GER                                      |
+| 4  | CORRIDA MANO DOWN                                |
+| 5  | CORRIDA ITALIANA DO CRUZEIRO                     |
+| 6  | CORRIDA BONISSIMA                                |
+| 7  | CIRCUITO PLANET RUN                              |
+| 8  | CORRIDA BPM                                      |
+| 9  | CORRIDA VITORIOSA                                |
+| 10 | TREINÃO DO GALO                                  |
+| 11 | CORRIDA VORR                                     |
+| 12 | CORRIDA DIVAS NA PISTA                           |
+| 13 | CORRIDA DO BOPE                                  |
+| 14 | CENTAURO DESBRAVA                                |
+| 15 | 5º CORRIDA CONTAGEM POR TODAS                    |
+| 16 | CAMINHADA MANO DOWN                              |
+| 17 | CORRIDA SUPERMERCADO BH                          |
+| 18 | CORRIDA ROTAM                                    |
+| 19 | CORRIDA FARID                                    |
+| 20 | CORRIDA SUPERLUNA                                |
+| 21 | CATS RUN 2026 - ETAPA BH                         |
+| 22 | CORRIDA DO EXÉRCITO                              |
+| 23 | CORRIDA SEST SENAT E COM VOCÊ                    |
+| 24 | CAMINHADA HOLOFOTES DA INCLUSÃO JANAINA BARCELOS |
+| 25 | CORRIDA SUPERMERCADO BH - ETAPA UBERLÂNDIA       |
+| 26 | CORRIDA DO AMERICA                               |
+| 27 | CORRIDA O TEMPO                                  |
 
-- O **nome do arquivo** passou a conter:
-  - Nome da corrida  
-  - Data de realização
-  - Distância percorrida  
-
-**Exemplo do nome do arquivo**:<br> *2026-01-25_Park_Run_2026_06KM-FEMININO-1*
-
-Essa decisão foi necessária porque essas informações **não estão presentes dentro do conteúdo dos arquivos**, sendo fundamentais para contextualização e análises futuras.
 
 ---
 
+
 ### ⚠️ Tratamento de Exceções 
 
-Apesar da existência de 27 corridas no período analisado, nem todas puderam ser incluídas na base de dados nesta etapa inicial.
-Abaixo estão os casos identificados e seus respectivos motivos:
+Embora tenham sido identificadas 27 corridas no período analisado, nem todas puderam ser incorporadas à base de dados nesta etapa inicial.
+
+A seguir, estão listados os casos que não foram incluídos, juntamente com seus respectivos motivos:
+
 
 ---
 
@@ -83,6 +106,21 @@ Abaixo estão os casos identificados e seus respectivos motivos:
   A página de origem apresenta erro (quebrada), impossibilitando o acesso aos dados.
 
 ---
+### 📁 Padronização de Arquivos
+
+Durante a extração, foi definido um padrão importante para organização dos dados:
+
+- O **nome do arquivo** passou a conter:
+  - Nome da corrida  
+  - Data de realização
+  - Distância percorrida  
+
+**Exemplo do nome do arquivo**:<br> *2026-01-25_Park_Run_2026_06KM-FEMININO-1*
+
+Essa decisão foi necessária porque essas informações **não estão presentes dentro do conteúdo dos arquivos**, sendo fundamentais para contextualização e análises futuras.
+
+---
+
 
 ## 🧠 Considerações sobre o Processo
 
