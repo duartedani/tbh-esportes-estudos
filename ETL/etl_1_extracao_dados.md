@@ -46,8 +46,7 @@ Essa decisão foi necessária porque essas informações **não estão presentes
 
 ### ⚠️ Tratamento de Exceções 
 
-Apesar da existência de 27 corridas no período analisado, nem todas puderam ser incluídas na base de dados nesta etapa inicial.
-
+Apesar da existência de 26 corridas no período analisado, nem todas puderam ser incluídas na base de dados nesta etapa inicial.
 Abaixo estão os casos identificados e seus respectivos motivos:
 
 ---
