@@ -2,9 +2,8 @@
 
 ## 📌 Visão Geral
 
-O processo de ELT (Extract, Load, Transform) deste projeto foi estruturado com o objetivo de transformar dados não estruturados — originalmente disponibilizados em arquivos PDF — em uma base analítica organizada e pronta para consumo.
+O processo de ELT (Extract, Load, Transform) deste projeto foi estruturado com o objetivo de transformar dados não estruturados — originalmente disponibilizados em arquivos PDF — em uma base tabular e pronta para consumo.
 
-Diferente de pipelines tradicionais de ETL, neste projeto optou-se por uma abordagem ELT, onde os dados são inicialmente extraídos e carregados em sua forma bruta, para posteriormente serem tratados e estruturados.
 
 ---
 
@@ -17,7 +16,7 @@ Essa análise foi de caráter **exploratório**, com o objetivo de entender:
 - Estrutura dos PDFs  
 - Padrões de layout das tabelas  
 - Tipos de informações disponíveis (nome, tempo, colocação, equipe, etc.)  
-- Possíveis variações entre diferentes corridas  
+- Possíveis variações de dados entre diferentes corridas  
 
 Apesar de superficial neste primeiro momento, essa etapa foi essencial para direcionar as decisões das fases seguintes do pipeline, principalmente no que diz respeito à extração automatizada dos dados.
 
@@ -25,13 +24,10 @@ Apesar de superficial neste primeiro momento, essa etapa foi essencial para dire
 
 ## 📥 Etapa 2 — Extração dos Dados
 
-Os dados foram obtidos a partir de todas as corridas realizadas até **03/05/2026**, totalizando 27 eventos analisados como base inicial.
+Os dados foram coletados a partir de todas as corridas realizadas até **03/05/2026**, totalizando 27 corridas e 114 arquivos analisados como base inicial.
 
-O processo de extração foi realizado com o apoio de Inteligência Artificial, responsável por interpretar os arquivos PDF e converter as informações em um formato estruturado.
+O processo de extração contou com o apoio de Inteligência Artificial, responsável pela leitura e extração das informações contidas nos arquivos PDF disponibilizados no site.
 
-> ℹ️ Será disponibilizada uma documentação específica detalhando o prompt e a estratégia utilizada na extração.
-
----
 
 ### 📁 Padronização de Arquivos
 
@@ -41,11 +37,13 @@ Durante a extração, foi definido um padrão importante para organização dos 
   - Nome da corrida  
   - Data de realização  
 
+**Exemplo do nome do arquivo**:<br> *2026-01-25_Park_Run_2026_06KM-FEMININO-1*
+
 Essa decisão foi necessária porque essas informações **não estão presentes dentro do conteúdo dos arquivos**, sendo fundamentais para contextualização e análises futuras.
 
 ---
 
-## ⚠️ Tratamento de Exceções na Extração
+### ⚠️ Tratamento de Exceções 
 
 Apesar da existência de 27 corridas no período analisado, nem todas puderam ser incluídas na base de dados nesta etapa inicial.
 
@@ -66,7 +64,7 @@ Abaixo estão os casos identificados e seus respectivos motivos:
   Foi identificado um outro domínio contendo os dados, porém em formato HTML, o que exigiria uma abordagem diferente de extração.  
   Para fins deste projeto, optou-se por não incluir neste momento.
 
-- **28/03/2026 — Corrida Mano Down**  
+- **28/03/2026 — Caminhada Mano Down**  
   Não foi encontrado link com os resultados da corrida.
 
 ---
@@ -88,7 +86,7 @@ Essas exceções reforçam um ponto importante em projetos reais de dados:
 
 > Nem sempre os dados estão disponíveis de forma padronizada ou acessível.
 
-Durante o desenvolvimento deste pipeline, foi necessário tomar decisões práticas, como:
+Durante o desenvolvimento desta pipeline, foi necessário tomar decisões práticas, como:
 
 - Definir escopo inicial de dados 
 - Adiar casos mais complexos para etapas futuras  
