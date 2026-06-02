@@ -55,7 +55,7 @@ Para garantir consistência na estrutura e viabilizar análises posteriores, for
 * Remoção da coluna *líquido* nos arquivos do tipo 1, por não estar preenchida de forma consistente em todas as corridas;
 * Remoção da coluna *C* nos arquivos do tipo 2, por apresentar valores nulos e não agregar valor à análise.
 
-<br>
+
 
 ### 🚴 Exclusão de Arquivos — Tipo 3 (Duatlo)
 
@@ -69,7 +69,7 @@ Arquivos identificados:
 
 Devido às particularidades desse tipo de evento, esses arquivos não foram processados nesta etapa para a camada Silver.
 
-<br>
+
 
 ### ⚠️ Arquivos Não Classificados
 
