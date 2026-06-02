@@ -79,4 +79,5 @@ Além da análise esportiva, este projeto também tem como finalidade demonstrar
 
 ---
 
-![Fluxo do projeto](Prototipo%20Layouts/fluxo%20projeto.png)
+
+![alt text](<im_1_fluxo projeto.png>)

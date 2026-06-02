@@ -6,4 +6,5 @@ A camada de staging é representada pelo Amazon S3 (AWS), atuando como a camada 
 
 Essa abordagem assegura maior confiabilidade, rastreabilidade e flexibilidade ao longo de todo o pipeline de dados.
 
-![Arquitetura do Projeto]("C:\Users\danie\Downloads\medallion_architecture.png")
+
+![alt text](medallion_architecture-1.png)
