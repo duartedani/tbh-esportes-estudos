@@ -88,18 +88,17 @@ Arquivo com estrutura fora do padrão utilizado, sendo removido da base nesta et
 
 **Demais arquivos** <br>
 O código inicial apresentava limitações, descartando arquivos com:
-
-    - Apenas uma página
-    - Pequenas variações estruturais (ex.: espaços em branco antes do cabeçalho)
+- Apenas uma página
+- Pequenas variações estruturais (ex.: espaços em branco antes do cabeçalho)
     
 #### 🔄 Evolução do Pipeline
 
 O script foi aprimorado para:
 
-    - Identificar dados mesmo com variações de formatação;
-    - Ignorar inconsistências como espaços extras;
-    - Processar corretamente arquivos de página única;
-    - Lidar com colunas adicionais inesperadas.
+- Identificar dados mesmo com variações de formatação;
+- Ignorar inconsistências como espaços extras;
+- Processar corretamente arquivos de página única;
+- Lidar com colunas adicionais inesperadas.
 
 
 ---
@@ -132,13 +131,14 @@ Para otimizar consultas e organização dos dados, foi adotado o particionamento
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ├── part-000.parquet │<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ├── part-001.parquet │ 
     
-✅ Benefícios <br>
+✅ Benefícios 
 - Redução do volume de dados lidos em consultas <br>
 - Melhor desempenho em engines distribuídas (ex: Spark, Athena) <br>
-- Organização lógica baseada em evento temporal <br>
+- Organização lógica baseada em evento temporal 
 
-<BR>
-⚠️ Over-partitioning <br>
+
+
+<br>⚠️ Over-partitioning <br>
 
 Embora o particionamento traga ganhos de performance, o uso excessivo (over-partitioning) pode gerar efeitos adversos, como:<br>
 
