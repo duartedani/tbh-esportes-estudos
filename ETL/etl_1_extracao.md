@@ -24,7 +24,7 @@ Apesar de superficial neste primeiro momento, essa etapa foi essencial para dire
 
 ## 📥 Etapa 2 — Extração dos Dados
 
-Os dados foram coletados a partir de todas as corridas realizadas até 03/05/2026. Nesse período, ocorreram 27 corridas, das quais 20 foram efetivamente extraídas, totalizando 117 arquivos obtidos como base inicial do projeto.
+Os dados foram coletados a partir de todas as corridas realizadas até 03/05/2026. Nesse período, ocorreram 27 corridas, das quais 21 foram efetivamente extraídas, totalizando 117 arquivos obtidos como base inicial do projeto.
 
 O processo de extração contou com o apoio de Inteligência Artificial, responsável pela leitura e extração das informações contidas nos arquivos PDF disponibilizados no site.
 
@@ -82,9 +82,7 @@ A seguir, estão listados os casos que não foram incluídos, juntamente com seu
 - **15/03/2026 — 118 Anos | Treinão de Aniversário do Galo**  
   Por se tratar de um evento no formato de treino, não houve mensuração de tempo dos participantes.
 
-- **15/03/2026 — Corrida Divas na Pista 2026**  
-    Os dados estão disponíveis em PDF, porém em um formato diferente do padrão encontrado no site TBH Esportes.  
-    Essa variação exigirá um tratamento específico, que será abordado em uma segunda etapa do projeto.  
+
 
 - **22/03/2026 — Centauro Desbrava**  
   A página redireciona para um site promocional sem resultados.  
