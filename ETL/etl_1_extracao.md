@@ -24,7 +24,7 @@ Apesar de superficial neste primeiro momento, essa etapa foi essencial para dire
 
 ## 📥 Etapa 2 — Extração dos Dados
 
-Os dados foram coletados a partir de todas as corridas realizadas até **03/05/2026**, totalizando 26 corridas e 117 arquivos analisados como base inicial.
+Os dados foram coletados a partir de todas as corridas realizadas até 03/05/2026. Nesse período, ocorreram 27 corridas, das quais 20 foram efetivamente extraídas, totalizando 117 arquivos obtidos como base inicial do projeto.
 
 O processo de extração contou com o apoio de Inteligência Artificial, responsável pela leitura e extração das informações contidas nos arquivos PDF disponibilizados no site.
 
@@ -46,7 +46,7 @@ Essa decisão foi necessária porque essas informações **não estão presentes
 
 ### ⚠️ Tratamento de Exceções 
 
-Apesar da existência de 26 corridas no período analisado, nem todas puderam ser incluídas na base de dados nesta etapa inicial.
+Apesar da existência de 27 corridas no período analisado, nem todas puderam ser incluídas na base de dados nesta etapa inicial.
 Abaixo estão os casos identificados e seus respectivos motivos:
 
 ---
